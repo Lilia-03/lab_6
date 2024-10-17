@@ -1,0 +1,137 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cfcfcf;
+}
+
+/*header*/
+.header{
+    color: rgb(0, 0, 0);
+    padding: 30px 15px;
+    margin: 10px auto;
+    background-color: #eee8e8;
+}
+h1{
+    font-style: oblique;
+}
+
+
+/*Barra de navegación*/
+.navbar{
+    width: 960px;
+    height: 50px;
+    background-color: rgba(166, 42, 5, 0.723);
+    
+}
+
+ul{
+    padding: 0; 
+    margin: 0;
+    height: 45px;
+    /*Este comando elimina los puntos de la lista*/
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 15px 0;
+
+}
+
+.navbar a{
+    color: white;
+    border-right: 2px solid white;
+    padding: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none; /*elimina la linea que tenia abajo las opciones del menu*/
+
+}
+
+/*Contenido*/
+.contenedor{
+    padding: 0;
+    margin: 50px auto 0;
+    width: 960px;
+}
+
+/*Justificar el contenido*/
+
+.contenido{
+    margin: 0;
+    padding: 10px;
+    float: left;
+    width: 938px;
+    background-color: #fff;
+    border: 1px solid #111;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.lead{
+    text-align: center;
+    font-style: italic;
+}
+
+.post-header{
+    margin: 20 px;
+}
+
+table{
+    
+    text-align: center;
+    margin: auto;
+}
+
+th{
+    width: 25%;
+    text-align: center; 
+    font-style: bold;
+    border: 1px solid #000;
+    background-color: rgba(139, 179, 58, 0.936);
+}
+
+tr{
+    width: 25%;
+    text-align: left; 
+    border: 1px solid #000;
+}
+
+td{
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #eee8e8;
+
+}
+p{
+    text-align: justify;
+}
+
+a{
+    color:#353535;
+}
+
+.subtitulo{
+    text-align: center;
+    color: #353535;
+}
+
+img{
+    padding: 5px;
+}
+
+/*footer*/
+h4{
+    padding: auto;
+    background-color: cfcfcf;
+
+}
+footer{
+    margin: 3px;
+    border-top: 5px solid #353535;
+}
+form{
+    background-color: #eee8e8; ;
+}
